@@ -16,10 +16,15 @@
 
     </nav>
     <main>
-      <h1>Contact Egypt</h1>
-      <h4>Get in Touch!</h4>
-      <p2>Interested in working together or just want to connect? Feel free to reach out!<br>(note to self add a simple form for name, email, and message input) </p2>
-
+      <form action="https://formspree.io/f/xzzdaglj" method="POST">
+        <h1>Contact Egypt</h1>
+        <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </main>
+
   </body>
 </html>
