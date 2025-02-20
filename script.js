@@ -1,1 +1,4 @@
-console.log('Hello!');
+
+function toggleAquaMode() {
+    document.body.classList.toggle("aqua-mode");
+}
